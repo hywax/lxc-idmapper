@@ -27,8 +27,8 @@ Try the library online using the provided playground - **[visit playground](http
 ```typescript
 import { mapper } from 'lxc-id-mapper'
 
-const result: MapperResult = mapper([
-  { containerId: 1000, hostId: 1001 }
+const result = mapper([
+  { containerId: 1000, hostId: 1005 }
 ])
 
 console.log(result.idMap) // Outputs the mapped IDs
