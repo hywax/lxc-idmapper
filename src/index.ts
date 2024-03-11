@@ -1,1 +1,1 @@
-export { mapper, MapperMatch, MapperResult } from './mapper'
+export * from './mapper'
