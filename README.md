@@ -1,44 +1,67 @@
-# Vite Vanilla Library Template
+# LXC ID Mapper
 
-Template for creating a library with a fully customized environment.
+[![npm version][npm-version-src]][npm-version-href]
+[![License][license-src]][license-href]
 
-## Features
+LXC ID Mapper is a library designed to map container GIDs to host UIDs for LXC containers. This library provides a simple and efficient way to manage user and group IDs in a containerized environment, ensuring that the correct permissions are applied and that the security of the host system is maintained.
 
-* ✨ Fully customized [eslint](https://eslint.org/) configuration based on the config by [Antfu](https://github.com/antfu/eslint-config)
-* 🧪 Write tests quickly and conveniently with [vitest](https://vitest.dev/)
-* 🤝 Supports [conventional commits](https://www.conventionalcommits.org/)
-* 💅 Generate beautiful changelogs with [changelogen](https://github.com/unjs/changelogen)
-* ♾️ GitHub CI for your build
-* 🤖 Ready configuration for [renovatebot](https://github.com/apps/renovate) with [renovate-config](https://github.com/hywax/renovate-config)
-* 🚀 Library releases with just one command
+<details>
+  <summary><b>Table of Contents</b></summary>
 
-## Get started
+* [Usage](#-usage)
+    * [Playground](#playground)
+    * [Basic](#basic)
+* [Installation](#-installation)
+* [Credits](#-credits)
+    * [Contributors](#contributors)
+* [License](#-license)
+</details>
 
-### GitHub Template
+## 🧪 Usage
 
-This is a template repo. Click the green [Use this template](https://github.com/hywax/vite-vanilla-library-template/generate) button to get started.
+### Playground
 
-### Git Clone
+Try the library online using the provided playground - **[visit playground](https://hywax.space/projects/lxc-id-mapper)**.
 
-```shell
-git clone https://github.com/hywax/vite-vanilla-library-template.git
-cd vite-vanilla-library-template
-pnpm install
+### Basic
+```typescript
+import { mapper } from 'lxc-id-mapper'
+
+const result: MapperResult = mapper([
+  { containerId: 1000, hostId: 1001 }
+])
+
+console.log(result.idMap) // Outputs the mapped IDs
 ```
 
-## Usage
+## 🚀 Installation
 
-The template contains the following scripts:
+```bash
+# Using pnpm
+pnpm add lxc-idmapper -D
 
-* `dev` - Start the development server
-* `build` - Build for production
-* `release` - Generate changelog and npm publish
-* `lint` - Checks your code for any linting errors
-* `test` - Run all tests
-* `test:watch` - Run all tests with watch mode
-* `test:coverage` - Run all tests with code coverage report
-* `prepare` - Script for setting up husky hooks
+# Using yarn
+yarn add lxc-idmapper -D
 
-## License
+# Using npm
+npm install lxc-idmapper -D
+```
+
+## 🏆 Credits
+
+A huge thank you to everyone who is helping to improve Mafl. Thanks to you, the project can evolve!
+
+### Contributors
+
+To become a contributor, please follow our [contributing guide](CONTRIBUTING.md).
+
+![Contributors](https://raw.githubusercontent.com/hywax/lxc-idmapper/main/.github/static/contributors.svg)
+
+## 📄 License
 
 This template was created under the [MIT License](LICENSE).
+
+[npm-version-src]: https://img.shields.io/npm/v/lxc-idmapper/latest.svg?logo=hackthebox&color=E56F01&logoColor=fff
+[npm-version-href]: https://npmjs.com/package/lxc-idmapper
+[license-src]: https://img.shields.io/badge/License-MIT-E56F01?logo=opensourceinitiative&logoColor=fff
+[license-href]: https://npmjs.com/package/lxc-idmapper
