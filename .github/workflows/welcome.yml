@@ -17,14 +17,14 @@ jobs:
           FIRST_ISSUE: |
             👋 @{{ author }}
             Thanks for opening your first issue here!
-            To help make it easier for us to investigate your issue, please follow the [contributing guidelines](#).
+            To help make it easier for us to investigate your issue, please follow the [contributing guidelines](https://github.com/hywax/lxc-idmapper/blob/main/CONTRIBUTING.md).
 
           FIRST_PR: |
             👋 @{{ author }}
 
             💖 Thanks for opening this pull request!
 
-            Please follow the [contributing guidelines](#). And we use [semantic commit messages](https://www.conventionalcommits.org/en/v1.0.0/) to streamline the release process.
+            Please follow the [contributing guidelines](https://github.com/hywax/lxc-idmapper/blob/main/CONTRIBUTING.md). And we use [semantic commit messages](https://www.conventionalcommits.org/en/v1.0.0/) to streamline the release process.
 
             Examples of commit messages with semantic prefixes:
             - `fix: interval for sending a request in the base service`
