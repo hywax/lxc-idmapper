@@ -1,17 +1,17 @@
 {
-  "name": "vite-vanilla-library",
+  "name": "lxc-idmapper",
   "type": "module",
   "version": "0.0.0",
   "private": true,
   "exports": {
     ".": {
-      "import": "./dist/vite-vanilla-library.js",
-      "require": "./dist/vite-vanilla-library.cjs"
+      "import": "./dist/lxc-idmapper.js",
+      "require": "./dist/lxc-idmapper.cjs"
     }
   },
-  "main": "./dist/vite-vanilla-library.cjs",
-  "module": "./dist/vite-vanilla-library.js",
-  "types": "./dist/vite-vanilla-library.d.ts",
+  "main": "./dist/lxc-idmapper.cjs",
+  "module": "./dist/lxc-idmapper.js",
+  "types": "./dist/lxc-idmapper.d.ts",
   "files": ["dist"],
   "scripts": {
     "dev": "vite",
