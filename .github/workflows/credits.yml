@@ -13,7 +13,7 @@ jobs:
         uses: wow-actions/contributors-list@v1
         with:
           GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
-          svgPath: public/contributors.svg
+          svgPath: .github/static/contributors.svg
           affiliation: all
           includeBots: false
           excludeUsers: hywax-assistant
