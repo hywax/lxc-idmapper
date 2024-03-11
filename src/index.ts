@@ -1,1 +1,1 @@
-export { sum } from './sum'
+export { mapper, MapperMatch, MapperResult } from './mapper'
