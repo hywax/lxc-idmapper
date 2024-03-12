@@ -1,6 +1,33 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/hywax/lxc-idmapper/compare/v0.0.1...v0.0.2)
+
+### 📖 Documentation
+
+- Change base usage ([d3719d7](https://github.com/hywax/lxc-idmapper/commit/d3719d7))
+
+### 📦 Build
+
+- Remove private flag ([e4bfc4f](https://github.com/hywax/lxc-idmapper/commit/e4bfc4f))
+
+### 🏡 Chore
+
+- Update CONTRIBUTORS ([cdcfec7](https://github.com/hywax/lxc-idmapper/commit/cdcfec7))
+- Implements mapper ([efc44bc](https://github.com/hywax/lxc-idmapper/commit/efc44bc))
+- Usage on development ([4cf129c](https://github.com/hywax/lxc-idmapper/commit/4cf129c))
+
+### ✅ Tests
+
+- Implements 3 tests ([6753baa](https://github.com/hywax/lxc-idmapper/commit/6753baa))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+
 ## v0.0.1
 
 
