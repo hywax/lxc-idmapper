@@ -8,5 +8,14 @@
 <body>
   <div id="app"></div>
   <script type="module" src="/src/index.ts"></script>
+  <script type="module">
+    import { mapper } from './src'
+
+    const result = mapper([
+      { containerId: 1000, hostId: 1005 }
+    ])
+
+    console.log(result)
+  </script>
 </body>
 </html>
