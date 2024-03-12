@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.0
+
+[compare changes](https://github.com/hywax/lxc-idmapper/compare/v0.0.2...v0.1.0)
+
+### 📦 Build
+
+- Remove formats: umd, iife ([c9ecb7d](https://github.com/hywax/lxc-idmapper/commit/c9ecb7d))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.0.2
 
 [compare changes](https://github.com/hywax/lxc-idmapper/compare/v0.0.1...v0.0.2)
