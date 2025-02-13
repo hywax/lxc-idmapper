@@ -31,7 +31,7 @@ function createIdMap(matches: MapperMatch[]): string[] {
 }
 
 function createSubId(matches: MapperMatch[]): string[] {
-  return matches.map((match) => `root:${match.hostId}:1`)
+  return matches.map((match) => `root:${match.containerId}:1`)
 }
 
 function sortMatches(matches: MapperMatch[]): MapperMatch[] {

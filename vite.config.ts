@@ -1,8 +1,8 @@
 /// <reference types="vitest" />
 import { resolve } from 'node:path'
+import camelCase from 'camelcase'
 import { defineConfig } from 'vite'
 import dts from 'vite-plugin-dts'
-import camelCase from 'camelcase'
 import packageJson from './package.json'
 
 const packageName = packageJson.name.split('/').pop() || packageJson.name

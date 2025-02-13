@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest'
 import type { MapperMatch } from '../src'
+import { describe, expect, it } from 'vitest'
 import { mapper } from '../src'
 
 describe('mapper', () => {
@@ -24,7 +24,7 @@ describe('mapper', () => {
         '1001 101001 64535',
       ],
       subId: [
-        'root:1005:1',
+        'root:1000:1',
       ],
     }
 
@@ -46,7 +46,7 @@ describe('mapper', () => {
       ],
       subId: [
         'root:44:1',
-        'root:104:1',
+        'root:107:1',
       ],
     }
 
