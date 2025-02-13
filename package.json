@@ -22,7 +22,7 @@
     "test": "vitest --run",
     "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.2.0",
