@@ -2,6 +2,8 @@
   "name": "lxc-idmapper",
   "type": "module",
   "version": "0.1.0",
+  "description": "LXC unprivileged mapper for user and group IDs",
+  "repository": "https://github.com/hywax/lxc-idmapper",
   "exports": {
     ".": {
       "import": "./dist/lxc-idmapper.js",
