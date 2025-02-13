@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.1.1
+
+[compare changes](https://github.com/hywax/lxc-idmapper/compare/v0.1.0...v0.1.1)
+
+### 🩹 Fixes
+
+- Sub id ([47cadc0](https://github.com/hywax/lxc-idmapper/commit/47cadc0))
+
+### 🏡 Chore
+
+- Update CONTRIBUTORS ([49d1117](https://github.com/hywax/lxc-idmapper/commit/49d1117))
+- Prepare husky normalize ([1ac3ff1](https://github.com/hywax/lxc-idmapper/commit/1ac3ff1))
+- Add description ([103dddb](https://github.com/hywax/lxc-idmapper/commit/103dddb))
+- Remove unused prop ([dc01bbe](https://github.com/hywax/lxc-idmapper/commit/dc01bbe))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+
 ## v0.1.0
 
 [compare changes](https://github.com/hywax/lxc-idmapper/compare/v0.0.2...v0.1.0)
